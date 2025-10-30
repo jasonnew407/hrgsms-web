@@ -5,6 +5,8 @@ import errorHandler from './middleware/errorHandler.js';
 import authRoutes from './routes/auth.route.js';
 import cookieParser from 'cookie-parser';
 import sequelize from './config/db.js';
+import userRoutes from './routes/user.route.js';
+import { use } from 'react';
 
 
 const app = express();
@@ -19,6 +21,7 @@ app.get('/', (req, res) => {
 });
 
 app.use('/api/auth', authRoutes);
+app.use('/api/users', userRoutes);
 
 app.use('/api/dashboard', (req, res) => {
   if (!req.cookies.token) {
