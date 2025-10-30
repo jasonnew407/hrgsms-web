@@ -3,7 +3,7 @@ import axios from 'axios';
 import { Check, ArrowLeft } from 'lucide-react';
 import morenalogo from '../assets/new_logo.png';
 
-const base_url = "https://morena-backend-bwgjajcqd3eybuah.eastus-01.azurewebsites.net";
+const base_url = "https://morena-backend-g4h6fzg3g7bkdshk.eastasia-01.azurewebsites.net";
 
 
 
