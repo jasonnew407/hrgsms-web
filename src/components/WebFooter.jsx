@@ -50,9 +50,12 @@ const WebFooter = () => {
                     <div>
                         <h3 className="font-display text-lg font-bold mb-4">Follow Us</h3>
                         {socialLinksFooter}
-                        <Link className="mt-6 inline-block bg-white/10 hover:bg-white/20 text-white font-bold py-2 px-4 rounded-lg text-sm transition-colors w-full text-center" to="/management-portal-login">
-                            Staff/Management Portal
-                        </Link>
+                        <a className="mt-6 inline-block bg-white/10 hover:bg-white/20 text-white font-bold py-2 px-4 rounded-lg text-sm transition-colors w-full text-center" href="https://polite-mud-009ad031e.3.azurestaticapps.net/management-portal-login">
+                            Branch Portal
+                        </a>
+                        <a className="mt-6 inline-block bg-white/10 hover:bg-white/20 text-white font-bold py-2 px-4 rounded-lg text-sm transition-colors w-full text-center" href="https://gentle-tree-0f9c8991e.3.azurestaticapps.net/management-portal-login">
+                            Admin Portal
+                        </a>
                     </div>
                 </div>
             </div>
