@@ -120,7 +120,7 @@ const HomePage = () => {
                                             </h2>
                                             <a 
                                                 className="inline-block bg-[#007BFF] text-white font-bold py-3 px-8 rounded-lg text-lg uppercase tracking-wider hover:bg-blue-600 transition-all duration-300 transform hover:scale-105 shadow-lg" 
-                                                href="/booking-search"
+                                                href="https://gentle-tree-0f9c8991e.3.azurestaticapps.net/booking-search"
                                             >
                                                 BOOK NOW
                                             </a>
